@@ -1,27 +1,24 @@
-CODE TEMPLATE:
-//This is a single line comment (notes that won't be read as instructions to the computer).
-//Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Add the title of your game
-//Add your first and last name 
+//Title of Game: Minecraft
+//Name: Amelia Lewey
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
+if (nightTime == true) {
+    findShelter;
 } else {
-    //Add event below
+    collectResources;
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if ((mobAhead == true) && (haveSword == true)) {
+    fightMob;
 } else {
-    //Add event below
+    runAway;
 }
 
-if (CHANGE ME: condition # 3) {
-    //Add event below
+if (health <= 3) {
+    panic;
 } else {
-    //Add event below
+    eatBread;
 }
 
 
